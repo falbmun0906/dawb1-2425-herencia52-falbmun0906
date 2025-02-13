@@ -1,4 +1,4 @@
-class Departamento(val listaEmpleados: MutableList<Empleado>) {
+class Departamento(val listaEmpleados: MutableList<Empleado> = mutableListOf<Empleado>()) {
 
     fun agregarEmpleado(empleado: Empleado) {
         listaEmpleados.add(empleado)
